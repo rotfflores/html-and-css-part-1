@@ -1,5 +1,14 @@
 body {
-    background-color: #122168;
-    color: #becaf9;
+    background-color: #097a98;
+    color: #ffffff;
     text-align: center;
+}
+
+#banner {
+    width: 100%;
+}
+
+#mission {
+    color: #96d1e9;
+    font-size: 20px;
 }
