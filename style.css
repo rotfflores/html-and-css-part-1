@@ -1,14 +1,29 @@
 body {
     background-color: #097a98;
     color: #ffffff;
-    text-align: center;
 }
 
 #banner {
     width: 100%;
 }
 
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
 #mission {
     color: #96d1e9;
     font-size: 20px;
+}
+
+h2 {
+    text-align: unset;
+}
+
+.item {
+    font-style: italic;
 }
