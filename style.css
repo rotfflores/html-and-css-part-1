@@ -20,10 +20,16 @@ p {
     font-size: 20px;
 }
 
+.differential{
+    background: #a3dee4;
+}
+
 h2 {
-    text-align: unset;
+    text-align: center;
+    color: #264853;
 }
 
 .item {
     font-style: italic;
+    color: #296675;
 }
