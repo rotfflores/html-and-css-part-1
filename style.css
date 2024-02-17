@@ -7,12 +7,14 @@ body {
     width: 100%;
 }
 
-h1 {
+.title {
     text-align: center;
 }
 
-p {
-    text-align: center;
+
+.paragraphs{
+    margin: 30px;
+    padding: 20px;
 }
 
 #mission {
@@ -22,14 +24,27 @@ p {
 
 .differential{
     background: #a3dee4;
+    margin-top: 30px;
+    padding: 20px;
 }
 
-h2 {
+.titleDifferential {
     text-align: center;
     color: #264853;
+}
+
+.ulDifferential {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 25px;
 }
 
 .item {
     font-style: italic;
     color: #296675;
+}
+
+.imgDifferential{
+    width: 50%;
 }
