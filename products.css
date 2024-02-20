@@ -1,3 +1,19 @@
 .logo {
     width: 75px;
 }
+
+nav {
+    background-color: #097a98;
+}
+
+nav li {
+    display: inline;
+    text-transform: uppercase;
+    margin: 0 0 0 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #96d1e9;
+}
