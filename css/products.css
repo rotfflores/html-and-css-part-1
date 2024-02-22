@@ -21,10 +21,15 @@ nav {
 nav li {
     display: inline;
     text-transform: uppercase;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #96d1e9;
+}
+
+/*main*/
+.medicine {
+    width: 200px;
 }
