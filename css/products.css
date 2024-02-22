@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #cdfcff;
+    font-family: "Raleway", sans-serif;
+}
+
 .box-header {
     position: relative;
     width: 940px;
@@ -29,7 +36,69 @@ nav a {
     color: #96d1e9;
 }
 
+nav a:hover{
+    color: #ffffff;
+}
+
 /*main*/
 .medicine {
     width: 200px;
+    height: 200px;
+}
+
+.products {
+    width: 940px;
+    margin: 10px auto;
+    padding: 50px;
+}
+
+.products h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #063446;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.products li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #116179;
+    border-radius: 10px;
+}
+
+.products li:hover {
+    border-color: #099a0b;
+}
+
+.products li:hover h2 {
+    font-size: 23px;
+}
+
+.products li:active {
+    border-color: #097a98;
+}
+
+.products p {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #003303;
+}
+
+/*footer*/
+footer {
+    background: #063446;
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright {
+    color: white;
+    padding: 20px;
+    font-size: 13px;
 }
