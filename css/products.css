@@ -1,16 +1,27 @@
+.box-header {
+    position: relative;
+    width: 940px;
+    margin: 10px auto;
+}
+
+header {
+    background-color: #097a98;
+}
+
 .logo {
     width: 75px;
 }
 
 nav {
-    background-color: #097a98;
+    position: absolute;
+    top: 35px;
+    right: 10px;
 }
 
 nav li {
     display: inline;
     text-transform: uppercase;
     margin: 0 0 0 10px;
-
 }
 
 nav a {
