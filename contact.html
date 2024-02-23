@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia 2000</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/products.css">
-    <title>products - Farmacia 2000 +</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -17,27 +17,19 @@
                     <li><a href="products.html">Products</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-        </nav>
+            </nav>
         </div>
     </header>
     <main>
-        <ul class="products">
-            <li>
-                <h2>Medicamento generico</h2>
-                <img class="medicine generico" src="img/medicamento-generico.png">
-                <p>Los</p>
-            </li>
-            <li>
-                <h2>Medicamento similares</h2>
-                <img class="medicine similar" src="img/medicamento-similar.png">
-                <p>Mejores</p>
-            </li>
-            <li>
-                <h2>Medicamento Patente</h2>
-                <img class="medicine patente" src="img/medicamento-patente.png">
-                <p>precios</p>
-            </li>
-        </ul>
+        <form>
+            <label for="name-lastName">Name and last name</label>
+            <input type="text" id="name-lastName">
+            <label for="number-phone">Number phone</label>
+            <input type="text" id="number-phone">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <input type="submit" value="Submit">
+        </form>
     </main>
     <footer>
         <img class="logo" src="img/logo.png">
