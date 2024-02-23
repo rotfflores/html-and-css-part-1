@@ -38,6 +38,8 @@ nav li {
 nav a {
     text-decoration: none;
     color: #96d1e9;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav a:hover{
@@ -52,12 +54,18 @@ nav a:hover{
 
 .title {
     text-align: center;
+    font-size: 27px;
+    padding-top: 20px;
 }
 
 
 .paragraphs{
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
+}
+
+.paragraphs p {
+    margin: 20px auto;
 }
 
 #mission {
@@ -65,15 +73,25 @@ nav a:hover{
     font-size: 20px;
 }
 
+.box-differential {
+    width: 940px;
+    margin: 30px auto;
+    background: #a3dee4;
+
+}
+
 .differential{
     background: #a3dee4;
-    margin-top: 30px;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 27px;
+    text-align: center;
 }
 
 .titleDifferential {
     text-align: center;
     color: #264853;
+    text-transform: uppercase;
+    font-size: 27px;
 }
 
 .ulDifferential {
@@ -81,13 +99,31 @@ nav a:hover{
     vertical-align: top;
     width: 20%;
     margin-right: 25px;
+    font-size: 20px;
+    margin-top: 50px;
 }
 
 .item {
     font-style: italic;
     color: #296675;
+    text-align: left;
+    padding: 2px;
 }
 
 .imgDifferential{
-    width: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+/*footer*/
+footer {
+    background: #063446;
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright {
+    color: white;
+    padding: 20px;
+    font-size: 13px;
 }

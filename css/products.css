@@ -34,6 +34,8 @@ nav li {
 nav a {
     text-decoration: none;
     color: #96d1e9;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav a:hover{
