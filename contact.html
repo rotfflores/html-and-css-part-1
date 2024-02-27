@@ -23,24 +23,24 @@
     <main>
         <form>
             <label for="name-lastName">Name and last name</label>
-            <input type="text" id="name-lastName">
+            <input type="text" id="name-lastName" class="input-registrer">
             <label for="number-phone">Number phone</label>
-            <input type="text" id="number-phone">
+            <input type="text" id="number-phone" class="input-registrer">
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="input-registrer">
             <label for="text">Message</label>
-            <textarea cols="70" rows="10" id="text"></textarea>
+            <textarea cols="70" rows="10" id="text" class="input-registrer"></textarea>
+
             <div>
-                <p>how would you like us to contact you?</p>
-                <label for="radio-email">Email</label>
-                <input type="radio" name="contact" value="email" id="radio-email">
-                <label for="radio-phone">Number phone</label>
-                <input type="radio" id="radio-phone" name="contact" value="phone" id="radio-phone">
-                <label for="radio-whatsapp">WhatsApp</label>
-                <input type="radio" name="contact" value="WhatsApp" id="radio-whatsapp">
+                <p>How would you like us to contact you?</p>
+                <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">Email</label>
+                <label for="radio-phone"><input type="radio" id="radio-phone" name="contact" value="phone" id="radio-phone">Number phone</label>         
+                <label for="radio-whatsapp"><input type="radio" name="contact" value="WhatsApp" id="radio-whatsapp">WhatsApp</label>              
             </div>
-            <label><input type="checkbox">Would you like to recive news about us? </label>
+            
+            <label class="input-checkbox"><input type="checkbox">Would you like to recive news about us?</label>
             <input type="submit" value="Submit">
+
         </form>
     </main>
     <footer>
