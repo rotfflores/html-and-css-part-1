@@ -1,0 +1,82 @@
+body {
+    background-color: #a3dee4;;
+    color: #264853;
+    font-family: "Raleway", sans-serif;
+
+}
+
+/*header*/
+.box-header {
+    position: relative;
+    width: 940px;
+    margin: 10px auto;
+}
+
+header {
+    background-color: #097a98;
+}
+
+.logo {
+    width: 75px;
+}
+
+nav {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+}
+
+nav li {
+    display: inline;
+    text-transform: uppercase;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #96d1e9;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+/*main*/
+main {
+    width: 940px;
+    margin: 10px auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    width: 50%;
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+
+
+/*footer*/
+footer {
+    background: #063446;
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright {
+    color: white;
+    padding: 20px;
+    font-size: 13px;
+}
