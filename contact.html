@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="box-header">
-            <h1><img class = "logo" src="img/logo.png"></h1>
+            <h1><img class = "logo" src="img/logo.png" alt="pharmacy 2000's logo"></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -23,37 +23,57 @@
     <main>
         <form>
             <label for="name-lastName">Name and last name</label>
-            <input type="text" id="name-lastName" class="input-registrer">
+            <input type="text" id="name-lastName" class="input-registrer" required>
             <label for="number-phone">Number phone</label>
-            <input type="text" id="number-phone" class="input-registrer">
+            <input type="tel" id="number-phone" class="input-registrer" placeholder="(xx) xxxx xxxx" required>
             <label for="email">Email</label>
-            <input type="text" id="email" class="input-registrer">
+            <input type="email" id="email" class="input-registrer" placeholder="email@domain.com" required>
             <label for="text">Message</label>
-            <textarea cols="70" rows="10" id="text" class="input-registrer"></textarea>
+            <textarea cols="70" rows="10" id="text" class="input-registrer" required></textarea>
 
-            <div>
-                <p>How would you like us to contact you?</p>
+            <fieldset>
+                <legend>How would you like us to contact you?</legend>
                 <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">Email</label>
                 <label for="radio-phone"><input type="radio" id="radio-phone" name="contact" value="phone" id="radio-phone">Number phone</label>         
                 <label for="radio-whatsapp"><input type="radio" name="contact" value="WhatsApp" id="radio-whatsapp">WhatsApp</label>              
-            </div>
+            </fieldset>
 
-            <div>
-                <p>What time would you like to contact us?</p>
+            <fieldset>
+                <legend>What time would you like to contact us?</legend>
                 <select>
                     <option>Morning</option>
                     <option>Afternoon</option>
                     <option>Evening</option>
                 </select>
-            </div>
+            </fieldset>
             
             <label class="input-checkbox"><input type="checkbox">Would you like to recive news about us?</label>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="submit">
 
         </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday to saturday</td>
+                    <td>8:00 - 22:00</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>8:00 - 20:00</td>
+                </tr>
+            </tbody>
+        </table>
+
     </main>
     <footer>
-        <img class="logo" src="img/logo.png">
+        <img class="logo" src="img/logo.png" alt="pharmacy 2000's logo">
         <p class="copyright">&copy; Copyright Farmacia 2000 - 2024</p>
     </footer>
 </body>
