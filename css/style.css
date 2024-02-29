@@ -51,21 +51,27 @@ nav a:hover{
 #banner {
     width: 100%;
 }
+/*box text*/
+.box-mostly{
+    background-color: #097a98;
+    margin: 0;
+}
 
 .title {
     text-align: center;
     font-size: 27px;
-    padding-top: 20px;
-}
-
-
-.paragraphs{
-    margin: 10px;
     padding: 20px;
 }
 
-.paragraphs p {
+.img-pharmacy{
+    width: 300px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.box-mostly p {
     margin: 20px auto;
+  /*clear: left;*/
 }
 
 #mission {
@@ -80,6 +86,29 @@ nav a:hover{
 
 }
 
+/*map*/
+.box-map{
+    text-align: center;
+}
+
+.box-map iframe {
+    margin: 20px;
+}
+
+/*video*/
+.video {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.video iframe {
+    width: 560px;
+    align-items: center;
+    margin: 30px;
+}
+
+/*differential*/
 .differential{
     background: #a3dee4;
     margin: 0 auto;
