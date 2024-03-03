@@ -175,3 +175,24 @@ footer {
     padding: 20px;
     font-size: 13px;
 }
+
+/* movile */
+@media screen and (max-width: 440px) {
+
+    .box-header, .box-differential, .imgDifferential {
+        width: auto;
+    }
+
+    .box-mostly {
+        padding: 10px
+    }
+
+    .imgDifferential {
+        margin: auto;
+    }
+
+    .ulDifferential {
+        width: auto;
+        margin: auto
+    }
+}
