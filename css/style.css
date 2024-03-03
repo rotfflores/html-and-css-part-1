@@ -69,6 +69,11 @@ nav a:hover{
     margin: 0 20px 20px 0;
 }
 
+.img-pharmacy:hover {
+    opacity: 70%;
+    transition: 400ms;
+}
+
 .box-mostly p {
     margin: 20px auto;
   /*clear: left;*/
@@ -93,19 +98,6 @@ nav a:hover{
 
 .box-map iframe {
     margin: 20px;
-}
-
-/*video*/
-.video {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.video iframe {
-    width: 560px;
-    align-items: center;
-    margin: 30px;
 }
 
 /*differential*/
@@ -139,9 +131,36 @@ nav a:hover{
     padding: 2px;
 }
 
+.item::before {
+    content: "★ ";
+}
+
+.item:first-child {
+    font-weight: bold;
+}
+
 .imgDifferential{
     width: 200px;
     height: 200px;
+}
+
+.imgDifferential:hover {
+    opacity: 70%;
+    transition: 400ms;
+}
+
+/*video*/
+.video {
+    background-color: #097a98;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.video iframe {
+    width: 560px;
+    align-items: center;
+    margin: 30px;
 }
 
 /*footer*/
