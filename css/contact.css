@@ -112,3 +112,14 @@ footer {
     padding: 20px;
     font-size: 13px;
 }
+
+/*mobile*/
+@media screen and (max-width: 440px) {
+    .box-header, main, .input-registrer, .input-registrer, .submit {
+        width: auto;
+    }
+
+    .input-registrer {
+        padding: 10, 10px, 10, 0;
+    }
+}

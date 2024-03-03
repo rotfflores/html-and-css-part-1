@@ -62,7 +62,7 @@ nav a:hover{
     font-weight: bold;
 }
 
-.products li {
+.item {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -103,4 +103,15 @@ footer {
     color: white;
     padding: 20px;
     font-size: 13px;
+}
+
+/*movile*/
+@media screen and (max-width: 440px) {
+    .box-header, .medicine, .products, .item {
+        width: auto;
+    }
+
+    .item {
+        margin: 10px;
+    }
 }
